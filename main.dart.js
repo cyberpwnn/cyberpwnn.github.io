@@ -38913,42 +38913,44 @@ s=this.a
 return B.el(new X.aah(s,b,T.a1q()),S.a8X(s.a.d),t.df)},
 $S:161}
 X.aah.prototype={
-$2:function(a,a0){var s,r,q,p,o,n,m,l,k,j,i,h,g,f,e,d=null,c={},b=a0.b
-if(b==null)return M.bu(d,d,d,d,d,0,d,d,0)
-b=b.b
+$2:function(a,b){var s,r,q,p,o,n,m,l,k,j,i,h,g,f,e=null,d={},c=b.b
+if(c==null)return M.bu(e,e,e,e,e,0,e,e,0)
+c=c.b
 s=$.pZ()
-r=C.e.aG(b*s)
-b=this.a
-q=b.e
+r=C.e.aG(c*s)
+c=this.a
+q=c.e
 p=q.a.a
 p.toString
-o=H.a2B(H.d9(p,",",""),d)
+o=H.a2B(H.d9(p,",",""),e)
 if(o==null)o=0
-c.a=o
+d.a=o
 p=this.b
 n=p.b.iP(C.cu)
 m=$.pY()
 m.toString
 l=C.e.aG(n*m*s)+3
 k=r-l
-j=o+l
-s=L.bY(C.yQ,d,86)
-m=b.d
-n=Z.pj(!1,m,L.lH(d,d,d,d,d,d,d,!0,d,d,d,d,d,d,d,d,d,d,d,!0,d,d,d,d,d,"Wallet Address (0x123....abc)",d,d,d,!1,d,d,d,d,d,d,d,d,d,d,d,d,d,d),d,d,d,1,d,!1,new X.aae(b),d,d)
-i=this.c
-h=H.a([new B.ws(P.aM("\\d+",!0,!1),!0),new X.Fk(T.a1q())],t.a8)
-g=A.eO(d,d,d,d,d,d,d,d,d,d,d,48,d,d,d,d,!0,d,d,d,d,d,d)
-g=Z.pj(!1,q,L.lH(d,d,d,d,d,d,d,!0,d,d,d,d,d,d,d,d,d,d,d,!0,d,d,"You can send up to "+i.jh(k)+" Mana",d,d,"0",d,d,d,!1,d,d,d,d,d,d,d,d,d,L.aE("Mana",d,d,d,d,d,d),d,d,d,d),h,new N.pk(2,!1,!0),d,1,d,!1,new X.aaf(c,b,k,i),d,g)
-h=L.aE("Transaction Fee",d,d,d,d,d,d)
-q=L.bY(C.yA,d,d)
-f=i.jh(l)+" Mana ("
-e=c.a
-q=Q.i6(q,d,L.aE(f+(e===0?0:C.I.aG(l/e*100))+"%)",d,d,d,d,d,d),h,d)
-h=L.aE("Total",d,d,d,d,d,d)
-h=Q.i6(L.bY(C.yO,d,d),d,L.aE(i.jh(j)+" Mana",d,d,d,d,d,d),h,d)
-f=L.aE("Send "+i.jh(c.a)+" Mana",d,d,d,d,d,d)
-m=t.Z
-return T.na(H.a([new T.cR(1,C.a3,s,d),new T.cR(0,C.a3,n,d),new T.cR(0,C.a3,g,d),new T.cR(1,C.a3,q,d),new T.cR(1,C.a3,h,d),new T.cR(1,C.a3,T.JG(H.a([U.KX(f,m.a.a.length===42&&c.a>0&&j<=r?new X.aag(c,b,a,p,i):d,d)],m),C.fI,C.bH),d)],m),C.bG,C.bH)},
+s=L.bY(C.yQ,e,86)
+m=c.d
+n=Z.pj(!1,m,L.lH(e,e,e,e,e,e,e,!0,e,e,e,e,e,e,e,e,e,e,e,!0,e,e,e,e,e,"Wallet Address (0x123....abc)",e,e,e,!1,e,e,e,e,e,e,e,e,e,e,e,e,e,e),e,e,e,1,e,!1,new X.aae(c),e,e)
+j=this.c
+i=H.a([new B.ws(P.aM("\\d+",!0,!1),!0),new X.Fk(T.a1q())],t.a8)
+h=A.eO(e,e,e,e,e,e,e,e,e,e,e,48,e,e,e,e,!0,e,e,e,e,e,e)
+h=Z.pj(!1,q,L.lH(e,e,e,e,e,e,e,!0,e,e,e,e,e,e,e,e,e,e,e,!0,e,e,"You can send up to "+j.jh(k)+" Mana",e,e,"0",e,e,e,!1,e,e,e,e,e,e,e,e,e,L.aE("Mana",e,e,e,e,e,e),e,e,e,e),i,new N.pk(2,!1,!0),e,1,e,!1,new X.aaf(d,c,k,j),e,h)
+i=L.aE("Transaction Fee",e,e,e,e,e,e)
+q=L.bY(C.yA,e,e)
+g=j.jh(l)+" Mana ("
+f=d.a
+q=Q.i6(q,e,L.aE(g+(f===0?0:C.I.aG(l/f*100))+"%)",e,e,e,e,e,e),i,e)
+i=L.aE("Total",e,e,e,e,e,e)
+i=Q.i6(L.bY(C.yO,e,e),e,L.aE(j.jh(o+l)+" Mana",e,e,e,e,e,e),i,e)
+g=L.aE("Send "+j.jh(d.a)+" Mana",e,e,e,e,e,e)
+m=m.a.a
+m=m==null?e:m.length
+if(m==null)m=!1
+f=t.Z
+return T.na(H.a([new T.cR(1,C.a3,s,e),new T.cR(0,C.a3,n,e),new T.cR(0,C.a3,h,e),new T.cR(1,C.a3,q,e),new T.cR(1,C.a3,i,e),new T.cR(1,C.a3,T.JG(H.a([U.KX(g,m?new X.aag(d,c,a,p,j):e,e)],f),C.fI,C.bH),e)],f),C.bG,C.bH)},
 $S:44}
 X.aae.prototype={
 $1:function(a){return this.a.ag(new X.aad())},
@@ -38969,7 +38971,9 @@ q.a.a=s
 p=q.d
 if(s>p){r=q.b.e
 r.sbc(0,q.e.jh(p))
-r.sox(X.ako(new P.bB(r.a.a.length,C.t)))}},
+p=r.a.a
+p=p==null?null:p.length
+r.sox(X.ako(new P.bB(p==null?0:p,C.t)))}},
 $S:1}
 X.aag.prototype={
 $0:function(){var s=this,r=s.c,q=s.a,p=V.eF(new X.aa9(q,s.b,s.d),null,t.z),o=t.P
@@ -39010,10 +39014,11 @@ s.toString
 s.f.lc(N.pb(r,r,r,r,L.aE(q.j(a),r,r,r,r,r,r),C.d6,r,r,r,r,r,r,r))},
 $S:6}
 X.Fk.prototype={
-qC:function(a,b){var s
+qC:function(a,b){var s,r
 if(b.b.c===0){P.e3(!0)
 return b}s=this.a.jh(P.asP(b.a))
-return b.a6j(X.m8(C.t,s.length),s)}}
+r=s.length
+return b.a6j(X.m8(C.t,r),s)}}
 V.iS.prototype={
 av:function(){return new V.Af(C.l,t.Vr)}}
 V.Af.prototype={
